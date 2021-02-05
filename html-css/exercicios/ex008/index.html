@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: rgb(250, 166, 135);
+        }
+    </style>
 </head>
 <body>
     <h1>Principais Formatações</h1>
     <h2>Semântico vs. Não-semântico</h2>
     <p>Duas das principais formatações, o "negrito" e o "itálico" (entre aspas mesmo), podem ser representadas no HTML5 por meio das tags &lt;b&gt; ou &lt;strong&gt; ("negrito") e &lt;i&gt; ou &lt;em&gt; (itálico). A diferença entre essas duas tags é relacionado à semântica, ou seja, significado, em detrimento da forma, que não tem significado algum.</p>
-    <h3>Não-semântico</h3>
-    <p>As tags &lt;b&gt;&lt;/b&gt; e &lt;i&gt;&lt;/i&gt; são tags não-semânticas. Ou seja, elas não possuem significado algum apenas a forma, que não tem sentido/significado. Este tipo de tag, apesar de ainda válido (em 2021), está caindo em desuso pois a recomendação é utilizar tags semânticas em HTML5.</p>
-    <h3>Semântico</h3>
-    <p>Já as tags &lt;strong&gt;&lt;/strong&gt; e &lt;em&gt;&lt;/em&gt; são tags semânticas, que possuem um significado embutido nelas: respectivamente, <strong>destaque</strong> e <em>ênfase</em>. Esta é a atual recomendação de uso das tags, em conformidade com o HTML5.</p>
+    <h3>Negrito vs. Destaque</h3>
+    <p>A tag &lt;b&gt;&lt;/b&gt; é uma tag do tipo não-semântica. Ou seja, não possui significado algum, apenas forma. Como sabemos, forma não tem sentido, é apenas forma. Este tipo de tag, apesar de ainda válido (em 2021), está caindo em desuso pois a recomendação é utilizar a tag semântica em HTML5, que possui efeito visual semelhante: &lt;strong&gt;&lt;/strong&gt; - tag de <strong>destaque</strong>.</p>
+    <h3>Itálico vs. Ênfase</h3>
+    <&lt;em&gt;&lt;>A tag &lt;i&gt;&lt;/i&gt;, similar a tag não-semântica anterior, tem sua versão semântica visualmente semelhante, mas com significado: é a tag &lt;em&gt;&lt;/em&gt; - tag de <em>ênfase</em>.</p>
+    <h2>Texto Marcado</h2>
+    <p>É possível também a criação de <mark>textos marcados</mark>, similar ao uso de canetas marca-texto.</p>
+    <p>Nós podemos <mark> marcar o texto em qualquer local</mark>, incluindo deixando ambas as cores de marcação <mark>igual</mark>. Esse efeito é criado <mark>com style</mark>. Veja esse código dentro da tag head.</p>
 </body>
 </html>
